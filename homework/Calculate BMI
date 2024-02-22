@@ -1,0 +1,12 @@
+def BMI(height,weight): 
+    return round((weight/height**2),2) #bmi is equal to weight/height^2
+
+var1 = float(input('input your height in meters')) #initally put integer, but float allows for decimal input values
+var2 = float(input('input your weight in kilograms')) 
+
+BMI = BMI(var1,var2)
+
+print("your body mass index (bmi) is :", BMI)
+
+#line 2 of my code is referenced from stack overflow (I had to search up how to use the define and round(round just rounds the numbers) functions to help with my variables)
+

@@ -1,0 +1,7 @@
+var1 = int(input('type in your intended base value to be raised to an exponent'))
+var2 = int(input('type in your intended exponent value'))
+
+ans = 1
+for i in range(var2) :
+    ans *= var1
+print(f'answer : {ans}')

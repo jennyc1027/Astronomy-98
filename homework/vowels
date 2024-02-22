@@ -1,0 +1,9 @@
+vowel = ['a', 'e', 'i', 'o', 'u']
+var1 = input('input in any sentence you want')
+num = 0
+for letter in var1:
+    if letter in vowel:
+        num += 1
+print("number of vowels in your sentence: " ,num)
+
+#part of line 6 inspired by stack overflow

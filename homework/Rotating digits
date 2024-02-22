@@ -1,0 +1,11 @@
+def rot(n):
+  n = int(input("number"))
+  rot1 = set()
+  for i in range( len( str(n) ) ):
+    m = int( str(n)[i:] + str(n)[:i] )
+    rot1.add(m)
+  return rot1
+
+print(rot)
+
+#this is the furthest I could manage — I referenced stack overflow and that's where the add and len commands come from, but even with some assistance I wasn't able to get the proper results
