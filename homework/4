@@ -1,0 +1,5 @@
+def removeDuplicates(var2):
+    return list(set(var2))
+lis = [1,1,2,3,4,4]
+ans = removeDuplicates(lis)
+print(ans)

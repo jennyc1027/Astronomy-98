@@ -1,0 +1,15 @@
+var1 = []
+
+var2 = 1
+for i in range(5):
+    var3 =[]
+    for j in range(5):
+        if var2 %3 == 0:
+            var3.append('?')
+        else:
+            var3.append(var2)
+        var2 += 1
+    var1.append(var3)
+
+for var3 in var1:
+    print(var3)

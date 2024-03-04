@@ -1,0 +1,9 @@
+def list_odd(listA, listB):
+    list_ab = listA +listB
+    num_odd = sorted([num for num in list_ab if num % 2!= 0])
+    return num_odd
+
+listA = list(range(1,11))
+listB = list(range(20,31))
+ans = list_odd(listA,listB)
+print(ans)
