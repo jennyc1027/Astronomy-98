@@ -1,0 +1,15 @@
+import numpy as np
+
+def spaceBetween(arr):
+
+    arr1 = np.empty_like(arr, dtype='U11')
+
+    for i, string in np.ndenumerate(arr):
+
+        arr1[i] = ' '.join(string)
+
+    return arr1
+
+myarr = np.array(['python', 'is', 'cool!'])
+ans = spaceBetween(myarr)
+print(ans)

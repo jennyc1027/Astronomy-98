@@ -1,0 +1,12 @@
+import numpy as np
+
+def findEqual(arr) :
+    var1 = []
+    for row in arr: 
+        if np.all(row == row[0]):
+            var1.append(row)
+    return np.array(var1)
+
+arr = np.array([[1, 1, 1], [1,2,3], [2,2,2]])
+ans = findEqual(arr)
+print(ans)

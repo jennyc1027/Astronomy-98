@@ -1,0 +1,13 @@
+import numpy as np
+
+def checkerboard():
+
+    array = np.zeros((8,8), dtype=int)
+
+    array[::2, ::2] = 1
+    array[1::2, 1::2] = 1
+
+    return array
+
+ans = checkerboard()
+print(ans)
